@@ -4,11 +4,11 @@
 // scrivere una prima funzione che presa una stringa come argomento,
 // ritorni la stessa stringa + la parola bootcamp;
 
-// function myFunction(coding) {
-//   return coding + "bootcamp";
-// }
+function myFunction(coding) {
+  return coding + "bootcamp";
+}
 
-// console.log(myFunction("coding "));
+console.log(myFunction("coding "));
 
 // Esercizio 2
 // scrivere un oggetto col vostro nome che vi identifichi in proprietà (nome, cognome, ecc...)
