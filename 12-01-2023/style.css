@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(22, 22, 22);
+}
+
+.todoTitle {
+  font-size: 3em;
+  font-family: Verdana, sans-serif;
+  color: white;
+  margin: 20px;
+}
+
+.container {
+  width: 80%;
+  height: 50px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 40px;
+  margin: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+}
+
+.checkEl,
+.checkedEl {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 55px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.checkEl {
+  background-color: white;
+}
+
+.checkedEl {
+  background-color: red;
+  border: 3px solid black;
+}
