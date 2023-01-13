@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  background: rgb(251, 226, 211);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 226, 211, 1) 12%,
+    rgba(238, 149, 99, 1) 49%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.title {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 450px;
+  height: 550px;
+  margin: 30px auto;
+}
+
+.img__carousel {
+  width: 450px;
+  height: 480px;
+  border-radius: 20px;
+  background-image: url(img/img1.jpg);
+  background-size: cover;
+  object-fit: cover;
+}
+
+.container .buttons__carousel {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.buttons__carousel .imgChanger1,
+.imgChanger2,
+.imgChanger3 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* TEMPLATE SLIDER (AVANZATO) */
+
+.containerEl {
+  width: 450px;
+  height: 550px;
+  margin: 30px auto;
+}
+
+.imageEl {
+  width: 450px;
+  height: 480px;
+  border-radius: 20px;
+  background-image: url(img/img1.jpg);
+  background-size: cover;
+  object-fit: cover;
+}
+
+.buttonsEl {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.button1,
+.button2,
+.button3 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  cursor: pointer;
+}
