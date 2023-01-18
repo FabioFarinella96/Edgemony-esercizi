@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formTitle {
+  font-size: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#form {
+  width: 300px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+#form .info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+label {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.info #title,
+#price,
+#category,
+#image,
+#description {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  outline-color: aqua;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submitButton input {
+  font-size: 20px;
+  padding: 5px 15px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton input:hover {
+  background-color: black;
+  color: white;
+}
+
+.submitButton input:active {
+  background-color: rgb(37, 37, 37);
+}
