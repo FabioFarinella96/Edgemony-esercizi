@@ -50,8 +50,17 @@ const cardGenerator = (data) => {
     tendinaEl.innerHTML = "";
     cart.forEach((item) => {
       const cartEl = document.createElement("div");
+      cartEl.className = "cartEl";
+      const deleteBtn = document.createElement("button");
+      deleteBtn.className = "deleteBtn";
+      deleteBtn.textContent = "X";
       cartEl.innerHTML = `<p>${item.title}</p><p>${item.price}</p>`;
+      cartEl.append(deleteBtn);
       tendinaEl.appendChild(cartEl);
+
+      deleteBtn.addEventListener("click", () => {
+        cartEl.remove();
+      });
     });
   };
 };
