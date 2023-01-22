@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdc332;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+/* form per aggiungere prodotti  */
+
+.container #addProduct {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#addProduct .addProductTitle {
+  font-size: 2em;
+}
+
+#addProduct input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  box-shadow: 5px 5px 10px 0px #000000;
+  padding: 10px;
+}
+
+.addButton {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: rgb(34, 34, 34);
+}
+
+/* form per aggiungere categoria  */
+
+.container #addCategories {
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#addCategories .addCategoriesTitle {
+  font-size: 2em;
+}
+
+#addCategories input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  box-shadow: 5px 5px 10px 0px #000000;
+  padding: 10px;
+}
+
+/* form per rimuovere prodotto  */
+
+.container #deleteProduct {
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#deleteProduct .deleteProductsTitle {
+  font-size: 2em;
+}
+
+#deleteProduct input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  box-shadow: 5px 5px 10px 0px #000000;
+  padding: 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./formStyle.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- form per aggiungere un prodotto  -->
+      <form id="addProduct">
+        <h2 class="addProductTitle">Aggiungi un prodotto</h2>
+        <input
+          id="title"
+          type="text"
+          name="title"
+          placeholder="Inserisci il titolo"
+          required
+        />
+        <input
+          id="price"
+          type="number"
+          name="number"
+          placeholder="Inserisci il prezzo"
+          required
+        />
+        <input
+        id="description"
+        type="text"
+        name="description"
+        placeholder="Inserisci la descrizione"
+        required
+      />
+        <input
+          id="categoryId"
+          type="number"
+          name="category"
+          placeholder="Inserisci la categoria"
+          required
+        />
+        <input
+          id="image"
+          type="url"
+          name="image"
+          placeholder="Inserisci immagine"
+          required
+        />
+       
+        <input class="addButton" type="submit" value="Aggiungi"></input>
+      </form>
+
+      <!-- form per aggiungere categoria  -->
+      <form id="addCategories">
+        <h2 class="addCategoriesTitle">Aggiungi categoria</h2>
+        <input type="text" name="name" id="categoryName" placeholder="Inserisci nome categoria" required>
+        <input type="text" name="categoryImage" id="categoryImage" placeholder="Inserisci immagine" required>
+        <input class="addButton" type="submit" value="Aggiungi"></input>
+      </form>
+
+
+
+      <!-- form per rimuovere prodotto  -->
+      <form id="deleteProduct">
+        <h2 class="deleteProductsTitle">Rimuovi prodotto</h2>
+        <input id="productId" type="text" name="name" placeholder=" Inserisci ID prodotto" required>
+        <input class="addButton" type="submit" value="Rimuovi"></input>
+      </form>
+    </div>
+
+
+
+
+
+
+    <script src="./posts.js" type="module"></script>
+
+  </body>
+</html>
