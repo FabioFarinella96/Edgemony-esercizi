@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(192, 248, 162);
+  font-family: "Unbounded", cursive;
+}
+
+.container {
+  width: 600px;
+  margin: 40px 0;
+  float: right;
+}
+
+.container .userCard {
+  width: 450px;
+  height: 400px;
+  border: 3px solid white;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.userCard .firstName,
+.lastName {
+  font-size: 3em;
+}
+
+.userCard .userAge,
+.userGender,
+.userUniversity {
+  font-size: 25px;
+}
+
+/* input  */
+
+.inputContainer {
+  width: 600px;
+  height: 100px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 5px 6px 5px rgba(47, 47, 47, 0.59);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.inputContainer:hover {
+  background-color: rgb(174, 248, 138);
+}
+
+#input {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.inputContainer label {
+  font-size: 25px;
+  font-weight: 700;
+}

@@ -17,6 +17,7 @@ bodyEl.appendChild(wrapperEl);
 const changeButton = qS(".changeButton");
 
 changeButton.addEventListener("click", () => {
+  wrapperEl.innerHTML = "";
   GET("quotes/random?rnd=" + Math.random()).then((data) => {
     wrapperEl.appendChild(quotesCard(data));
     console.log(data);
