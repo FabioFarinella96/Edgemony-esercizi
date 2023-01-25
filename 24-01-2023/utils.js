@@ -51,6 +51,7 @@ const usersCard = (data) => {
   const userAge = cE("p");
   const userGender = cE("p");
   const userUniversity = cE("p");
+  const userImage = cE("img");
 
   container.className = "container";
   userCard.className = "userCard";
@@ -59,19 +60,22 @@ const usersCard = (data) => {
   userAge.className = "userAge";
   userGender.className = "userGender";
   userUniversity.className = "userUniversity";
+  userImage.className = "userImage";
 
   userFirstName.textContent = data.firstName;
   userLastName.textContent = data.lastName;
   userAge.textContent = ` Age: ${data.age}`;
   userGender.textContent = ` Gender: ${data.gender}`;
   userUniversity.textContent = ` University: ${data.university}`;
+  userImage.setAttribute("src", data.image);
 
   userCard.append(
     userFirstName,
     userLastName,
     userAge,
     userGender,
-    userUniversity
+    userUniversity,
+    userImage
   );
   container.append(userCard);
   return container;

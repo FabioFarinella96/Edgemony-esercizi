@@ -28,17 +28,25 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  position: relative;
 }
 
 .userCard .firstName,
 .lastName {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .userCard .userAge,
 .userGender,
 .userUniversity {
   font-size: 25px;
+}
+
+.userCard .userImage {
+  width: 170px;
+  position: absolute;
+  top: 5px;
+  right: 0;
 }
 
 /* input  */

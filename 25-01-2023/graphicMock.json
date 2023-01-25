@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Jason",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "firstName": "Pamela",
+      "gender": "Female"
+    },
+    {
+      "id": 3,
+      "firstName": "Mike",
+      "gender": "male"
+    },
+    {
+      "id": 4,
+      "firstName": "Charlie",
+      "gender": "male"
+    },
+    {
+      "id": 5,
+      "firstName": "Roberta",
+      "gender": "female"
+    }
+  ]
+}

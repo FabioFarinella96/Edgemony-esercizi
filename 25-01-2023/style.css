@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mockContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  width: 500px;
+  height: 600px;
+  border: 1px solid;
+  border-radius: 12px;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.35);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card .title {
+  font-size: 4em;
+}
+
+.card .description,
+.price,
+.brand {
+  font-size: 25px;
+}
+
+.card .image {
+  width: 360px;
+  height: 340px;
+}
+
+.graphicContainer {
+  width: 100%;
+  border: 1px solid;
+}
