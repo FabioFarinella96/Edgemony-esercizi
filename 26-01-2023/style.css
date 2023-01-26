@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: aliceblue;
+}
+
+/* counter  */
+
+.container {
+  width: 300px;
+  height: 200px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 10vh auto;
+}
+
+.container .counter {
+  font-size: 3em;
+}
+
+.container .button {
+  font-size: 20px;
+  background-color: rgb(173, 14, 14);
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.boom-text {
+  font-size: 6em;
+  text-align: center;
+  color: white;
+  margin-top: 5vh;
+}
+
+/* grafico  */
+
+.main-title {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.wrapper {
+  width: 700px;
+  height: 450px;
+  border: 1px solid rgb(37, 219, 219);
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+  animation-name: animation;
+  animation-duration: 10s;
+}
+
+.age-status-bar {
+  width: 80px;
+  height: 350px;
+  border: 1px solid rgb(37, 219, 219);
+  border-radius: 8px;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.age-status-bar__status {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: rgb(23, 158, 182);
+  width: 100%;
+  transition: all 0.35s;
+}
+
+.age-status-bar h4 {
+  position: absolute;
+  color: white;
+  bottom: -25px;
+  left: 15px;
+  transform: rotate(180deg);
+  animation-name: titleAnimation;
+  animation-duration: 12s;
+}
+
+/* animations  */
+
+@keyframes animation {
+  from {
+    background-color: rgb(255, 255, 255);
+  }
+  to {
+    background-color: rgb(25, 25, 25);
+  }
+}
+
+@keyframes titleAnimation {
+  from {
+    color: rgb(255, 255, 255);
+  }
+  to {
+    color: rgb(255, 255, 255);
+  }
+}
