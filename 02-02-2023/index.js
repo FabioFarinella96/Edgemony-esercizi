@@ -17,4 +17,4 @@ const callback = () => {
 server.listen(8000, "localhost", callback);
 
 // leggo il json
-console.log(utenti);
+console.log(booksApi);
