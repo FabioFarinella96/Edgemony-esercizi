@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "titolo": "Harry Potter e il calice di fuoco",
+    "autore": "JK Rowling",
+    "genere": "Fantasy",
+    "prezzo": 29
+  },
+  {
+    "id": 2,
+    "titolo": "Il signore degli anelli",
+    "autore": "Tolkien",
+    "genere": "Fantasy",
+    "prezzo": 39
+  },
+  {
+    "id": 3,
+    "titolo": "Twilight",
+    "autore": "Stephenie Meyer",
+    "genere": "Fantasy",
+    "prezzo": 19
+  },
+  {
+    "id": 4,
+    "titolo": "L'Alchimista",
+    "autore": "Paulo Coelho",
+    "genere": "Romanzo di formazione",
+    "prezzo": 29
+  },
+  {
+    "id": 5,
+    "titolo": "Il codice da Vinci",
+    "autore": "Dan Brown",
+    "genere": "Thriller",
+    "prezzo": 39
+  }
+]
