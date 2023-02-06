@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: beige;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .container {
+        width: 800px;
+        border: 3px solid rgb(25, 25, 25);
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+        margin: 10vh auto;
+      }
+
+      h1 {
+        font-size: 3em;
+        color: rgb(251, 110, 110);
+      }
+    </style>
+    <title>Api books</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Welcome to Api books
+        <span class="material-symbols-outlined"> menu_book </span>
+      </h1>
+      <a href="./public-books"
+        ><span class="material-symbols-outlined"> note </span>Go to the public
+        books</a
+      >
+      <a href="./api/books">
+        <span class="material-symbols-outlined"> note </span>Go to the private
+        books (Authorization required: userKey = fabio)</a
+      >
+    </div>
+  </body>
+</html>
