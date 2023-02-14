@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "63eb76b189676237461b91d4"
+  },
+  "titolo": "Spider-man 3",
+  "genere": "Action"
+},{
+  "_id": {
+    "$oid": "63eb770e89676237461b91d5"
+  },
+  "titolo": "Harry Potter e il calice di fuoco",
+  "genere": "Fantasy"
+},{
+  "_id": {
+    "$oid": "63eb770e89676237461b91d6"
+  },
+  "titolo": "Avatar",
+  "genere": "Fantascienza"
+}]

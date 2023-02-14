@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "63eb77a989676237461b91d7"
+  },
+  "titolo": "La vita è bella",
+  "genere": "Drammatico"
+},{
+  "_id": {
+    "$oid": "63eb77a989676237461b91d8"
+  },
+  "titolo": "Altrimenti ci arrabbiamo",
+  "genere": "Comico"
+},{
+  "_id": {
+    "$oid": "63eb77a989676237461b91d9"
+  },
+  "titolo": "Natale a Miami",
+  "genere": "Comico"
+}]
