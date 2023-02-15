@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "63ecf80983ff74daa8b8ccfb"
+  },
+  "nome": "Luca",
+  "cognome": "Rossi",
+  "matricola": 38766,
+  "corsi": [
+    "Matematica",
+    "Informatica"
+  ],
+  "esami": "Informatica"
+},{
+  "_id": {
+    "$oid": "63ecff293f7e85efb8b9fad5"
+  },
+  "nome": "Fabio",
+  "cognome": "Farinella",
+  "matricola": 45678,
+  "corsi": [
+    "Italiano",
+    "Inglese"
+  ],
+  "esami": "Italiano"
+},{
+  "_id": {
+    "$oid": "63ecff293f7e85efb8b9fad6"
+  },
+  "nome": "Marco",
+  "cognome": "Rossi",
+  "matricola": 434498,
+  "corsi": [
+    "Tedesco",
+    "Spagnolo"
+  ],
+  "esami": "Tedesco"
+}]

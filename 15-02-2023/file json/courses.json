@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "63ecf59c1c1f9bdfe9b3301c"
+  },
+  "nome": "English full immersion",
+  "materia": "Inglese",
+  "docenti": [
+    "Luca Rossi",
+    "Gianni Bianchi"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecf75a2ba842e5657429aa"
+  },
+  "nome": "Italian full immersion",
+  "materia": "Italiano",
+  "docenti": [
+    "Luca Rossi",
+    "Gianni Bianchi"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecf75a2ba842e5657429ab"
+  },
+  "nome": "History Course",
+  "materia": "History",
+  "docenti": [
+    "Luca Rossi",
+    "Gianni Bianchi"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecf75a2ba842e5657429ac"
+  },
+  "nome": "Corso di informatica",
+  "materia": "Informatica",
+  "docenti": [
+    "Luca Rossi",
+    "Gianni Bianchi"
+  ]
+}]
