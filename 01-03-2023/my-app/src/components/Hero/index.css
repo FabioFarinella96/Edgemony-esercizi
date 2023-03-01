@@ -1,0 +1,31 @@
+.Hero {
+  margin: 20px auto;
+  width: 90%;
+  height: 50vh;
+  border: 2px solid rgb(245, 245, 245);
+  background-color: rgb(242, 242, 242);
+  border-radius: 12px;
+  position: relative;
+}
+
+.Hero .hero-title {
+  font-size: 4em;
+  position: absolute;
+  top: 28%;
+  right: 185px;
+}
+
+.Hero .hero-text {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  right: 280px;
+}
+
+.Hero img {
+  width: 800px;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
