@@ -10,6 +10,7 @@
 
 .Hero .hero-title {
   font-size: 4em;
+  color: black;
   position: absolute;
   top: 28%;
   right: 185px;
@@ -17,6 +18,7 @@
 
 .Hero .hero-text {
   font-size: 25px;
+  color: black;
   position: absolute;
   top: 50%;
   right: 280px;

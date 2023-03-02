@@ -11,16 +11,15 @@
   background-size: cover;
   border-bottom: 1px solid gainsboro;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 50px;
 }
 
 .Header .header-title {
-  color: rgba(0, 0, 0, 0.721);
+  color: rgba(7, 7, 7, 0.721);
 }
 
 .Header .nav-bar a {
