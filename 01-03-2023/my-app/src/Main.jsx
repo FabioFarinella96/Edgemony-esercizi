@@ -4,11 +4,14 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import GallerySection from "./components/GallerySection";
 import ProductsSection from "./components/ProductsSection";
+import ProductModal from "./components/ProductModal";
 import Footer from "./components/Footer";
 import { useState } from "react";
 
 const Main = () => {
   const [darkMode, setDarkMode] = useState(false);
+
+  const [openProductModal, setOpenProductModal] = useState(null);
 
   return (
     <div className={`Main ${darkMode && "dark__mode"}`}>
@@ -26,9 +29,15 @@ const Main = () => {
       <GallerySection galleryTitle="Some of our products" />
       <ProductsSection
         productsTitle="New products"
-        productsSubtitle="Discover all our new products"
+        setOpenProductModal={setOpenProductModal}
       />
       <Footer footerText="Powered with React ❤️" />
+      {openProductModal ? (
+        <ProductModal
+          product={openProductModal}
+          setOpenProductModal={setOpenProductModal}
+        />
+      ) : null}
     </div>
   );
 };
