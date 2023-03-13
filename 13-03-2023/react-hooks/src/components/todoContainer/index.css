@@ -8,6 +8,10 @@
   padding: 20px;
 }
 
+.hidden-container {
+  display: none;
+}
+
 .ToDoContainer .todo-text {
   font-weight: 700;
 }
@@ -16,6 +20,13 @@
   padding: 5px 12px;
   font-weight: 700;
   border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.ToDoContainer .remove-button {
+  border: 0;
+  font-size: 20px;
   background-color: transparent;
   cursor: pointer;
 }
